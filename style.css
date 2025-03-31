@@ -205,6 +205,55 @@
     transition: all 0.7s;
 }
 
+.new::after{
+    content: "New";
+    position: absolute;
+    z-index: 1;
+    background-color: #2EC1AC;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    right: 5%;
+    top: 5%;
+    border-radius: 50%;
+    align-content: center;
+    color: #fff;
+
+}
+
+.off-fifty::after{
+    content: "-50%";
+    position: absolute;
+    z-index: 1;
+    background-color: #E97171;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    right: 5%;
+    top: 5%;
+    border-radius: 50%;
+    align-content: center;
+    color: #fff;
+}
+
+.off-thirty::after{
+    content: "-30%";
+    position: absolute;
+    z-index: 1;
+    background-color: #E97171;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    right: 5%;
+    top: 5%;
+    border-radius: 50%;
+    align-content: center;
+    color: #fff;
+    z-index: 0;
+}
 
 .product-image img{
     width: 100%;
@@ -524,6 +573,16 @@
 
     }
 
+    .new::after, .off-fifty::after, .off-thirty::after{
+
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    
+    }
+
+    .off-fifty::after
+
 }
 
 @media screen and (min-width: 900px){
@@ -781,6 +840,14 @@
     .explore-third-image-box img{
         width: 100%;
     }
+
+    .new::after, .off-fifty::after, .off-thirty::after{
+
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        
+        }
 
 }
 
