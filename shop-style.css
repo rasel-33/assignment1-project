@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shop-hero-area{
+    height: 20vw;
+    position: relative;
+}
+
+
+.shop-hero::after{
+    content: "";
+    background-image: url("./images/shop-page/hero-section/hero-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(4px);
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.title-container{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+   
+
+}
+
+.title-container h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+
+
+.title-container div{
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.title-container .smaller-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.75rem;
+}
