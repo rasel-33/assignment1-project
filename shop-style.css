@@ -175,10 +175,16 @@
   color: white;
 }
 
+.advantages-area{
+    background-color: #FAF3EA;
+}
+
 .advantage{
+    
     display: flex;
     margin: 0 5%;
     justify-content: space-between;
+    padding: 120px 0;
 }
 
 .advantage-1, .advantage-2, .advantage-3, .advantage-4{
@@ -187,5 +193,16 @@
 } 
 
 .icon-container{
-    height: 20px;
+
+}
+
+.text-container h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text-container p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
 }
