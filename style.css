@@ -1063,9 +1063,33 @@
   .footer-container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: flex-start;
     /* height: 15vw; */
     margin-top: 40px;
+    /* border: 1px solid red; */
+    
+  }
+  .footer-left{
+    width: 30%;
+  }
+  .footer-middle{
+    justify-content: space-around;
+  }
+  .footer-right{
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  .footer-right div{
+    justify-items: flex-start;
+    
+    margin:0;
+  }
+  .footer-input{
+    padding-top: 30px;
+  }
+  .footer-left, .footer-middle, .footer-right{
+    /* border: 1px solid red; */
   }
   .footer h1 {
     margin-bottom: 30px;
@@ -1091,7 +1115,7 @@
     margin-top: 30px;
   }
 
-  .footer hr {
+  /* .footer hr {
     margin-top: 90px;
-  }
+  } */
 }
