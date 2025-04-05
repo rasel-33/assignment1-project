@@ -678,6 +678,87 @@ td{
   
 }
 
+.billing-area{
+  margin-top: 50px;
+}
 
+.billing{
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bill-inputs{
+  width: 47%;
+  /* border: 1px solid red; */
+}
+
+form{
+  /* border: 1px solid green; */
+}
+
+
+
+.bill-summary{
+  width: 47%;
+  border: 1px solid red;
+}
+.name-field{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.fname-half, .lname-half{
+  width: 50%;
+}
+.half{
+  width: 100%;
+}
+
+
+
+.bill-inputs .full{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+.billing h1{
+  margin-left: 10%;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+input, select{
+  height: 75px;
+  border: 1px solid #9F9F9F;
+  border-radius: 10px;
+}
+
+.bill-inputs div:not(.fname-half){
+  margin-left: 10%;
+}
+
+.bill-inputs div{
+  margin-top: 30px;
+}
+
+
+
+.bill-inputs div:nth-of-type(10){
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+select, .additional-field input::placeholder{
+  padding-left: 20px;
+  font-size: 16px;
+ background-color: white;
+ color: #9F9F9F;
+}
+
+label{
+  display: block;
+  margin-bottom: 15px;
+}
 
 
