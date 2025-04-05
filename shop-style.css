@@ -693,9 +693,7 @@ td{
   /* border: 1px solid red; */
 }
 
-form{
-  /* border: 1px solid green; */
-}
+
 
 
 
@@ -728,7 +726,7 @@ form{
   font-weight: 600;
 }
 
-input, select{
+.billing-area input,.billing-area select{
   height: 75px;
   border: 1px solid #9F9F9F;
   border-radius: 10px;
