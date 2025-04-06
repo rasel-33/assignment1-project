@@ -867,3 +867,99 @@ label {
   border: 1px solid black;
   border-radius: 15px;
 }
+
+.contact-1 h2{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contact-1 p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #9f9f9f;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact-2{
+  margin-top: 130px;
+  margin-left: 10%;
+  margin-right: 15%;
+  display: flex;
+}
+.contact-2-1{
+  width: 30%;
+}
+
+.contact-2-1-1, .contact-2-1-2, .contact-2-1-3{
+  display: flex;
+  margin-bottom: 60px;
+}
+.contact-2-1-1-1, .contact-2-1-2-1,.contact-2-1-3-1{
+  font-size: 24px;
+
+}
+.contact-2-1-1-1{
+  font-size: 30px;
+}
+.contact-2-1-1-2 p:nth-of-type(1), .contact-2-1-2-2 p:nth-of-type(1), .contact-2-1-3-2 p:nth-of-type(1){
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-2-1-1-2 p:nth-of-type(2), .contact-2-1-2-2 p:nth-of-type(2), .contact-2-1-3-2 p:nth-of-type(2), .contact-2-1-1-2 p:nth-of-type(3), .contact-2-1-2-2 p:nth-of-type(3), .contact-2-1-3-2 p:nth-of-type(3){
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.contact-2-1-1, .contact-2-1-2, .contact-2-1-3{
+  gap: 30px;
+}
+
+.contact-2-2{
+  /* border: 1px solid red; */
+  width: 70%;
+  padding-left: 5%;
+}
+
+.contact-2-2 input{
+  height: 75px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  width: 90%;
+}
+.contact-2-2 label{
+  font-size: 14px;
+}
+
+.contact-2-2 input::placeholder{
+  padding-left: 20px;
+}
+.contact-2-2 div{
+  margin-bottom: 30px;
+}
+
+.field4 input{
+  height: 120px;
+}
+
+.field4 input::placeholder{
+  padding-top: -30px;
+}
+
+.submit-btn{
+  display: inline-block;
+  padding: 10px 80px;
+  border: 1px solid grey;
+  text-align: center;
+  color: white;
+  background-color: #B88E2F;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
