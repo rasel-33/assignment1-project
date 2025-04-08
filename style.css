@@ -1013,6 +1013,10 @@
     font-weight: 700;
   }
 
+  .range-area{
+    margin-top: 50px;
+  }
+
   .range-area-text h4 {
     font-weight: 700;
     font-size: 32px;
